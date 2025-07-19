@@ -2,6 +2,7 @@ from tkinter import *
 from tkinter import messagebox
 import discretas
 from functools import partial
+import os
 #Esta interfaz cuenta con dos pestañas, una una calculadora donde la formula lógica se inserta con botonera y se hace todo con los botones, y otra donde se hace el input de la formula lógica escrbiendola directamente
 class LogiCalcApp:
     def __init__(self, master, r_callback = None):
@@ -10,7 +11,11 @@ class LogiCalcApp:
         self.master.title("LogiCalc Calculadibar")
         self.master.geometry("500x420")
         self.master.config(background="#2f2d3d")
-        self.master.iconbitmap("icono.ico")
+        try:
+            ruta_icono = os.path.join(os.path.dirname(__file__), "icono.ico")
+            self.master.iconbitmap(ruta_icono)
+        except Exception as e:
+            print(f"Advertencia: no se pudo cargar el icono. {e}")
         self.boton_sc = None
         self.modo_latex = False
         self.original_expr = ""
@@ -179,7 +184,11 @@ class RecibeLatex:
         self.master.geometry("800x500")
         self.master.config(background="#2f2d3d")
         self.master.resizable(False, False)
-        self.master.iconbitmap("icono.ico")
+        try:
+            ruta_icono = os.path.join(os.path.dirname(__file__), "icono.ico")
+            self.master.iconbitmap(ruta_icono)
+        except Exception as e:
+            print(f"Advertencia: no se pudo cargar el icono. {e}")
         self.r_callback = r_callback
 
         self.placeholder_entry = "Ingrese su fórmula en LaTeX"
