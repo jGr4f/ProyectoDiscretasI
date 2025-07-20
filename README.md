@@ -46,6 +46,14 @@ Al iniciar con escritura manual:
 
 El programa es resistente a añadir textos distintos a fórmulas o fórmulas con errores.
 
+Al presionar el botón "atrás", el usuario puede volver a la selección de inicio entre la botonera y la escritura manual.
+
+<img width="802" height="535" alt="image" src="https://github.com/user-attachments/assets/da20e3e3-6dd2-4715-9a01-625b7fa69a52" /> <img width="506" height="458" alt="image" src="https://github.com/user-attachments/assets/8a7da17e-1365-4747-b620-dac5ee06fd01" />
+
+
+
+
+
 En el repositorio hay un archivo adjunto de expresiones lógicas para probar el programa.
 
 
