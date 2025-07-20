@@ -283,18 +283,3 @@ class ParserLogico:
 
         self.separador()            
         return self.componentes
-
-#esto solo es para probar como funciona, realmente en los demás archivos se implementa por aparte
-if __name__ == "__main__":
-    entrada = input("Ingrese la expresion: ")
-    mi_reescritor = ReescritorLogico(entrada)
-    mi_parser = ParserLogico(mi_reescritor)
-    if mi_parser.Paso0() == True:
-        print("Expresion no valida")
-    else:
-        mi_reescritor.nueva_lista = mi_parser.Paso1()
-        mi_reescritor.nueva_lista = mi_parser.paso2()
-        mi_reescritor.nueva_lista = mi_parser.paso3() 
-        print(mi_reescritor.nueva_lista)
-        mi_reescritor.procesar()
-        print("Componentes para analizar:", mi_parser.componentes)
