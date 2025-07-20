@@ -184,7 +184,11 @@ class RecibeLatex:
         self.master.geometry("800x500")
         self.master.config(background="#2f2d3d")
         self.master.resizable(False, False)
-        self.master.iconbitmap("icono.ico")
+        try:
+            ruta_icono = os.path.join(os.path.dirname(__file__), "icono.ico")
+            self.master.iconbitmap(ruta_icono)
+        except Exception as e:
+            print(f"Advertencia: no se pudo cargar el icono. {e}")
         self.r_callback = r_callback
 
         self.placeholder_entry = "Ingrese su fórmula en LaTeX"
