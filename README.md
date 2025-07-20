@@ -27,6 +27,12 @@ Al iniciar con botonera:
 
 3. El usuarió presionará el botón "enter" para que el programa se ejecute sobre la fórmula dada y así genere la fórmula bien formada en formato LaTeX.
 
+<img width="504" height="458" alt="image" src="https://github.com/user-attachments/assets/81da5e4c-c0e2-46fc-ab98-e7de2b393ff3" />
+
+4. Con el boton LaTeX el usuario puede alternar entre el código látex y la fórmula bien formada sin formato, únicamente con conectivos lógicos.
+
+<img width="501" height="446" alt="image" src="https://github.com/user-attachments/assets/c559a278-324a-48fa-ae86-8d78d6b40294" />
+
 
 Al iniciar con escritura manual: 
 
@@ -39,5 +45,7 @@ Al iniciar con escritura manual:
 <img width="810" height="542" alt="image" src="https://github.com/user-attachments/assets/212b4fc7-3631-4dce-9daa-64fc3d10d72f" />
 
 El programa es resistente a añadir textos distintos a fórmulas o fórmulas con errores.
+
+En el repositorio hay un archivo adjunto de expresiones lógicas para probar el programa.
 
 
