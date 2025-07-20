@@ -1,0 +1,12 @@
+Expresión 1
+$\neg p \lor \neg q \leftrightarrow \neg p \land q$
+Expresión 2.
+$\neg q \rightarrow \neg p \leftrightarrow p \rightarrow q$
+Expresión 3.
+$\neg \neg p \leftrightarrow p$
+Expresión 4.
+$p \land q \lor p \land r \leftrightarrow p \land q \lor r$
+Expresión 5.
+$\neg p \lor q \leftrightarrow p \rightarrow q$
+Expresión 6.
+$p \rightarrow q \land q \rightarrow p \leftrightarrow p \leftrightarrow q$
