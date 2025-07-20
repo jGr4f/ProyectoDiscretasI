@@ -36,7 +36,7 @@ Al iniciar con escritura manual:
 
 2. El usuario ingresará la fórmula mediante el campo de texto y presionará el botón "calcular" para así ejecutar el programa y generar la fórmula bien formada.
 
-<img width="810" height="538" alt="image" src="https://github.com/user-attachments/assets/c8a13000-3ac9-4a83-b44e-dc23d0b8eef7" />
+<img width="810" height="542" alt="image" src="https://github.com/user-attachments/assets/212b4fc7-3631-4dce-9daa-64fc3d10d72f" />
 
 El programa es resistente a añadir textos distintos a fórmulas o fórmulas con errores.
 
