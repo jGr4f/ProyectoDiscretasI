@@ -8,6 +8,7 @@ Una vez estructurada correctamente, la herramienta también permite generar una 
 El sistema incluye una interfaz gráfica sencilla y funcional, desarrollada con Python y la biblioteca Tkinter, lo que permite un uso intuitivo tanto para usuarios con conocimientos básicos como avanzados en lógica proposicional.
 
 El programa tiene en cuenta los códigos de LaTeX para cada operador lógico:
+
 Implicación: \rightarrow
 
 Equivalencia: \leftrightarrow
