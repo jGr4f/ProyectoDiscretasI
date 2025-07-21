@@ -9,9 +9,13 @@ El sistema incluye una interfaz gráfica sencilla y funcional, desarrollada con 
 
 El programa tiene en cuenta los códigos de LaTeX para cada operador lógico:
 Implicación: \rightarrow
+
 Equivalencia: \leftrightarrow
+
 Adjunción (Y): \land
+
 Disyunción (O): \lor
+
 Negación: \neg
 
 
